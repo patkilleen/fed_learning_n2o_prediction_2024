@@ -1,0 +1,17 @@
+input dataset path,selected sensors path,year,chamber,temporal resolution (min),algorithm,input tensor number of time steps,federated aggregation algorithm,FL experiment type,apply min-max scaling,client heterogeneity,learning rate override,epoch override,batch size override,seed,cross-validation type,block CV cluster size (hours),iterations,number of clients,number of folds,number of selected clients per round,number of rounds
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,ZeroR,0,FedAvg,centralized learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,ZeroR,0,FedAvg,centralized learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,ZeroR,0,FedAvg,local learning and ensemble learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,ZeroR,0,FedAvg,local learning and ensemble learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,RF,0,FedAvg,centralized learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,RF,0,FedAvg,centralized learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,RF,0,FedAvg,local learning and ensemble learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,RF,0,FedAvg,local learning and ensemble learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,SVM,0,FedAvg,centralized learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,SVM,0,FedAvg,centralized learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,SVM,0,FedAvg,local learning and ensemble learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,SVM,0,FedAvg,local learning and ensemble learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,LR,0,FedAvg,centralized learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,LR,0,FedAvg,centralized learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,LR,0,FedAvg,local learning and ensemble learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2022/C1/30min.csv,input/datasets/selected-sensors/2022/C1/30min.csv,2022,C1,30,LR,0,FedAvg,local learning and ensemble learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64

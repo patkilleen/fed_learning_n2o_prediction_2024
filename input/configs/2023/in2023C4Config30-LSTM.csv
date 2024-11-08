@@ -1,0 +1,7 @@
+input dataset path,selected sensors path,year,chamber,temporal resolution (min),algorithm,input tensor number of time steps,federated aggregation algorithm,FL experiment type,apply min-max scaling,client heterogeneity,learning rate override,epoch override,batch size override,seed,cross-validation type,block CV cluster size (hours),iterations,number of clients,number of folds,number of selected clients per round,number of rounds
+input/datasets/2023/C4/30min.csv,input/datasets/selected-sensors/2023/C4/30min.csv,2023,C4,30,LSTM,14,FedAvg,centralized learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2023/C4/30min.csv,input/datasets/selected-sensors/2023/C4/30min.csv,2023,C4,30,LSTM,14,FedAvg,centralized learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2023/C4/30min.csv,input/datasets/selected-sensors/2023/C4/30min.csv,2023,C4,30,LSTM,14,FedAvg,local learning and ensemble learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2023/C4/30min.csv,input/datasets/selected-sensors/2023/C4/30min.csv,2023,C4,30,LSTM,14,FedAvg,local learning and ensemble learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2023/C4/30min.csv,input/datasets/selected-sensors/2023/C4/30min.csv,2023,C4,30,LSTM,14,FedAvg,federated learning,TRUE,IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
+input/datasets/2023/C4/30min.csv,input/datasets/selected-sensors/2023/C4/30min.csv,2023,C4,30,LSTM,14,FedAvg,federated learning,TRUE,non-IID,-1,-1,-1,123,block CV,48,2,6,5,4,64
