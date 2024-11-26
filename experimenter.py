@@ -494,7 +494,7 @@ def runSingleDatsetCVExperiments(inConfigFile,outputDir):
 						foldPairStartTimeMS=time.time()
 						myio.logWrite("Experiment "+str(eix)+", algorithm "+algName+", (iteration)-(outer fold)-(inner fold): ("+str(itIx)+")-("+str(outFoldIx)+")-("+str(inFoldIx)+")",myio.LOG_LEVEL_DEBUG)						
 						
-						resFile.write(str(eix)+","+actualProcessingDevice+","+algName+","+str(year)+","+str(chamber)+","+str(tempResolution)+","+str(tensorNumberTimeSteps)+","+str(featSelectionScheme)+","+str(nFeatures)+","+str(nSamples)+","+ str(itIx)+","+str(rngSeed)+","+str(outFoldIx)+","+str(inFoldIx)+","+str(mse)+","+str(rmse)+","+str(r2)+","+","+str(mape)+","+str(foldPairExecTime)+"\n")
+						resFile.write(str(eix)+","+actualProcessingDevice+","+algName+","+str(year)+","+str(chamber)+","+str(tempResolution)+","+str(tensorNumberTimeSteps)+","+str(featSelectionScheme)+","+str(nFeatures)+","+str(nSamples)+","+ str(itIx)+","+str(rngSeed)+","+str(outFoldIx)+","+str(inFoldIx)+","+str(mse)+","+str(rmse)+","+str(r2)+","+str(mape)+","+str(foldPairExecTime)+"\n")
 						resFile.flush()
 						
 						inFoldIx = inFoldIx+1
