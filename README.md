@@ -67,3 +67,6 @@ Directories:
 			- sensor-node-<sensor node ID>.csv #sensor readings from four Pessl sensor nodes (sensor node 00209FC8, 01209E4F, 01209E52, and 01209E58)
 		- predictor-node-soil-data/ #contains the data from our Raspberry Pi-based soil data gathering device
 			- 2023.csv #soil data gathered from 2023 (the only season our device was deployed)
+			
+## Bugs
+- the PLSR feature selection incorrectly ignores the last feature, so the last feature (last column before the target variable) won't be part of the selection
